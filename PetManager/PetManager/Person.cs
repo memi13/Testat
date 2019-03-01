@@ -40,6 +40,11 @@ namespace PetManager {
             var person = (Person) obj;
             return string.Equals(this.Lastname, person.Lastname) && string.Equals(this.Firstname, person.Firstname);
         }
+
+        public void toString()
+        {
+
+        }
         public override int GetHashCode()
         {
             unchecked // Overflow is fine, just wrap
